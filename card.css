@@ -1,0 +1,58 @@
+.centerButton {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.centerHorizantalButton {
+  margin: 0 auto;
+  display: block;
+}
+.downButton {
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.scroll {
+  overflow-y: scroll;
+  height: 100px;
+}
+.hr {
+  width: 100%;
+  background: black;
+}
+.mainCustomer {
+  min-height: 90vh;
+}
+.customerCard {
+  padding: 0;
+  width: 100%;
+}
+.breadcrum {
+  font-size: 0.80em;
+  display: flex;
+  align-items: center;
+}
+.alignRight{
+  display: flex;
+  justify-content: flex-end;
+}
+.centerHorizantalButton{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.textCenter{
+  text-align: center;
+}
